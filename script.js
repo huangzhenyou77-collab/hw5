@@ -4,7 +4,7 @@ Highcharts.chart('container', {
         type: 'spline'
     },
     title: {
-        text: 'Monthly Average Temperature'
+        text: '台灣 韓國2016-2025入境觀光客人入比較'
     },
     subtitle: {
         text:
@@ -35,7 +35,7 @@ Highcharts.chart('container', {
     },
     yAxis: {
         title: {
-            text: 'Temperature'
+            text: '人數'
         },
         labels: {
             format: '{value}°'
@@ -55,18 +55,21 @@ Highcharts.chart('container', {
     },
     series: [
         {
-            name: 'Tokyo',
+            name: '台灣',
             marker: {
                 symbol: 'square'
             },
             data: [
-                5.2,
-                5.7,
-                8.7,
-                13.9,
-                18.2,
-                21.4,
-                25.0,
+               10690279,
+               10739601,
+               11066707,
+               11864105,
+               1377861,
+               140479,
+               895962,
+               6486951,
+               7857686,
+               8574547,
                 {
                     y: 26.4,
                     marker: {
@@ -86,7 +89,7 @@ Highcharts.chart('container', {
             ]
         },
         {
-            name: 'Bergen',
+            name: '韓國',
             marker: {
                 symbol: 'diamond'
             },
@@ -103,17 +106,16 @@ Highcharts.chart('container', {
                             'chart.'
                     }
                 },
-                1.6,
-                3.3,
-                5.9,
-                10.5,
-                13.5,
-                14.5,
-                14.4,
-                11.5,
-                8.7,
-                4.7,
-                2.6
+               17241823,
+               13335758,
+               15346879,
+               17502756,
+               2519118,
+               967003,
+               3198017,
+               11031665,
+               16369629,
+               18936562,
             ]
         }
     ]
